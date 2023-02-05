@@ -1,0 +1,30 @@
+{
+  "name": "appwrite-todo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "main": "./dist/appwrite-todo.umd.cjs",
+  "module": "./dist/appwrite-todo.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/appwrite-todo.js",
+      "require": "./dist/appwrite-todo.umd.cjs"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "18.11.19",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-dts": "^1.7.2"
+  },
+  "dependencies": {
+    "appwrite": "^10.2.0",
+    "install": "^0.13.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "web-personal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "nx run-many --target=build",
+    "dev:vue": "nx run vue-todo:dev",
+    "dev:react": "nx run react-todo:dev",
+    "dev:svelte": "nx run svelte-todo:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nrwl/cli": "15.6.3",
+    "@nrwl/eslint-plugin-nx": "^15.6.3",
+    "@nrwl/js": "15.6.3",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/tao": "15.6.3",
+    "@nrwl/workspace": "15.6.3",
+    "@types/node": "18.11.19",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-typescript-prettier": "^5.0.0",
+    "nx": "15.6.3",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.3"
+  }
+}

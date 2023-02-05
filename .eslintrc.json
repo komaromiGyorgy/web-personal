@@ -1,0 +1,17 @@
+{
+  "ignorePatterns": ["!**/*"],
+  "extends": ["airbnb-typescript-prettier"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["plugin:@nrwl/nx/typescript"]
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": ["plugin:@nrwl/nx/javascript"]
+    }
+  ],
+    "rules": {
+
+    }
+}
